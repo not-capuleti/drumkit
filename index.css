@@ -1,0 +1,127 @@
+body,
+html {
+	height: 1px;
+	min-height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	font-size: 16px;
+}
+
+body {
+	background-color: #040f0f;
+	font-family: 'Bungee Hairline', cursive;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+h1 {
+	font-size: 5vw;
+	color: #5dd9c1;
+}
+
+h2 {
+	align-self: center;
+	font-size: 1rem;
+	color: #ccc;
+	padding-right: 30px;
+}
+
+.about-app-wrapper {
+	text-align: center;
+}
+
+#about-app-wrapper__instruction {
+	color: #ccc;
+	font-family: 'Comfortaa', cursive;
+	font-size: 1rem;
+}
+
+.change-color-wrapper {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.change-color__list {
+	list-style: none;
+	font-family: 'Nova Square', cursive;
+	padding-left: 0;
+}
+
+.change-color__list > li {
+	font-size: .8rem;
+	padding: 5px 0;
+}
+
+.change-color__list > li:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+#sweet-pink {
+	color: #f46964;
+}
+
+#neon-light {
+	color: #5dd9c1;
+}
+
+#plain-white {
+	color: #fff;
+}
+
+main {
+	font-family: 'Comfortaa', cursive;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.key {
+	padding: 5px;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	border: 1px solid white;
+	border-radius: 5px;
+	text-align: center;
+	transition: all .05s ease;
+}
+
+.key p {
+	font-size: 1.3rem;
+}
+
+footer {
+	font-family: 'Nova Square', cursive;
+}
+
+header,
+footer {
+	padding: 0 20px;
+}
+
+.footer__list {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.8rem;
+	height: 30px;
+	line-height: 30px;
+	padding: 0;
+	color: #ccc;
+}
+
+.fa-github {
+	font-size: 1.4rem;
+	padding-left: 5px;
+	color: #ccc;
+}
+
+.playing {
+	transform: scale(1.2);
+}
